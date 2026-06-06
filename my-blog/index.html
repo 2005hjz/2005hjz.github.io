@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .post {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+<h1>欢迎来到我的博客</h1>
+
+<div class="post">
+    <h2>我的第一篇文章</h2>
+    <p>这是一篇示例博文，下面展示两种图片引用方式。</p>
+
+    <!-- 绝对路径引用图片 -->
+    <h3>图片1：使用绝对路径</h3>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg"
+         alt="示例图片-绝对路径">
+    <p>↑ 这张图片使用绝对路径（http/https完整URL）</p>
+
+    <!-- 相对路径引用图片 -->
+    <h3>图片2：使用相对路径</h3>
+    <img src="./images/demo.png"
+         alt="示例图片-相对路径">
+    <p>↑ 这张图片使用相对路径（./images/demo.png）</p>
+</div>
+
+<div class="post">
+    <h2>关于本站</h2>
+    <p>这是使用GitHub Pages搭建的个人博客。</p>
+    <p>搭建日期：2026年6月</p>
+</div>
+</body>
+</html>
